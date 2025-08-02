@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6.0)
 project(opengl-sandbox)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 
 if(MSVC)
     add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
